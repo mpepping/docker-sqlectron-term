@@ -19,3 +19,10 @@ Change the default `vim` editor to `nano`:
 
     docker run -ti -v --env EDITOR=nano \
     mpepping/sqlectron-term
+
+## References
+
+* <https://sqlectron.github.io>
+* <https://hub.docker.com/r/mpepping/sqlectron-term/>
+* <https://github.com/mpepping/docker-sqlectron-term>
+
