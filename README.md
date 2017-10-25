@@ -11,4 +11,11 @@ Quick && dirty
 
 Persisting state locally:
 
-    docker run -ti -v $PWD/Sqlectron:/home/sqlectron/.config/Sqlectron mpepping/sqlectron-term
+    docker run -ti -v \
+    $PWD/Sqlectron:/home/sqlectron/.config/Sqlectron \
+    mpepping/sqlectron-term
+
+Change the default `vim` editor to `nano`:
+
+    docker run -ti -v --env EDITOR=nano \
+    mpepping/sqlectron-term
